@@ -7,6 +7,30 @@
 ## Description
 `vehicle-classification` aggregates labeled vehicle images and classifies vehicle images on granularity of make, model, and generation. `vehicle-classification` leverages [Grand Theft Auto V (GTA V)](https://en.wikipedia.org/wiki/Grand_Theft_Auto_V) for labeled vehicle image aggregation (data set collection) and [PyTorch](https://pytorch.org/) to build a convolutional neural network (CNN) architecture to perform vehicle image classification on the granularity of make, model, and generation (e.g. '1992 Mercedes-Benz 500E', '2016 Audi Q7', '2016 Dodge Ram Rebel').
 
+## Examples
+
+The following are examples of images classified by the classifier.
+
+<p float="left" align="center">
+  <img src="readme_assets/example_0_raw.png" width="250" height="250"/>
+  <img src="readme_assets/example_0_predicted.png" width="250" height="275"/>
+</p>
+
+<p float="left" align="center">
+  <img src="readme_assets/example_1_raw.png" width="250" height="250"/>
+  <img src="readme_assets/example_1_predicted.png" width="250" height="275"/>
+</p>
+
+<p float="left" align="center">
+  <img src="readme_assets/example_2_raw.png" width="250" height="250"/>
+  <img src="readme_assets/example_2_predicted.png" width="250" height="275"/>
+</p>
+
+<p float="left" align="center">
+  <img src="readme_assets/example_3_raw.png" width="250" height="250"/>
+  <img src="readme_assets/example_3_predicted.png" width="250" height="275"/>
+</p>
+
 ## Data Set Collection
 
 ### Environment
@@ -104,30 +128,6 @@ The accuracy of the classifier on GTA V vehicle images is around 70%. The follow
 
 <p float="left" align="center">
   <img src="readme_assets/loss_vs_epoch_plot.png" width="373" height="246"/>
-</p>
-
-## Examples
-
-The following are examples of images classified by the classifier.
-
-<p float="left" align="center">
-  <img src="readme_assets/example_0_raw.png" width="250" height="250"/>
-  <img src="readme_assets/example_0_predicted.png" width="250" height="275"/>
-</p>
-
-<p float="left" align="center">
-  <img src="readme_assets/example_1_raw.png" width="250" height="250"/>
-  <img src="readme_assets/example_1_predicted.png" width="250" height="275"/>
-</p>
-
-<p float="left" align="center">
-  <img src="readme_assets/example_2_raw.png" width="250" height="250"/>
-  <img src="readme_assets/example_2_predicted.png" width="250" height="275"/>
-</p>
-
-<p float="left" align="center">
-  <img src="readme_assets/example_3_raw.png" width="250" height="250"/>
-  <img src="readme_assets/example_3_predicted.png" width="250" height="275"/>
 </p>
 
 ## Authors
