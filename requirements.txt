@@ -1,0 +1,6 @@
+jupyterlab==2.2.9
+matplotlib==3.3.3
+numpy==1.19.4
+opencv-python==4.4.0.46
+scikit-learn==0.23.2
+torch==1.7.1
