@@ -1,8 +1,7 @@
 # vehicle-classification
 
-![python (scoped)](https://img.shields.io/badge/python-3.8.5-brightgreen.svg)
-
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+![python (scoped)](https://img.shields.io/badge/python-3.8.5-brightgreen.svg)
 
 ## Description
 `vehicle-classification` aggregates labeled vehicle images and classifies vehicle images on granularity of make, model, and generation. `vehicle-classification` leverages [Grand Theft Auto V (GTA V)](https://en.wikipedia.org/wiki/Grand_Theft_Auto_V) for labeled vehicle image aggregation (data set collection) and [PyTorch](https://pytorch.org/) to build a convolutional neural network (CNN) architecture to perform vehicle image classification on the granularity of make, model, and generation (e.g. '1992 Mercedes-Benz 500E', '2016 Audi Q7', '2016 Dodge Ram Rebel').
